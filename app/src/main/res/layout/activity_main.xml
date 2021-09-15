@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".main.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agendaento das consultas"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="27dp" />
+    <TextView
+        android:id="@+id/textViewNome"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:text="Nome completo"
+        />
+
+    <EditText
+        android:id="@+id/nomeEt"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="-15dp"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/textViewTel"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:ems="35"
+        android:layout_marginLeft="5dp"
+        android:text="Telefone" />
+
+    <EditText
+        android:id="@+id/telefoneEt"
+        android:layout_width="394dp"
+        android:layout_height="wrap_content"
+        android:ems="45"
+        android:layout_marginLeft="5dp"
+        android:hint="Ex: (16)997999-9999"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textViewData"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:ems="55"
+        android:text="Data da consulta:" />
+
+    <EditText
+        android:id="@+id/dataEt"
+        android:layout_width="394dp"
+        android:layout_height="wrap_content"
+        android:ems="55"
+        android:layout_marginLeft="5dp"
+        android:hint="Ex: 02/12/2021"
+        android:inputType="text" />
+
+
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="24dp"
+        android:text="Adicionar Consulta"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/btnEditar"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:layout_gravity="center"
+        android:text="Atualizar consulta"
+        android:layout_below="@id/btnSalvar"/>
+    <Button
+        android:id="@+id/btnDeletar"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:layout_gravity="center"
+        android:text="Deletar consulta existente"
+        android:layout_below="@id/btnEditar"/>
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:text="Visualizar consulta"
+        android:layout_gravity="center"
+
+        android:layout_below="@id/btnDeletar"/>
+    <Button
+        android:id="@+id/btnLimpar"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:text="Limpar"
+        android:layout_gravity="center"
+        android:layout_below="@id/btnDeletar"/>
+
+</LinearLayout>
+
