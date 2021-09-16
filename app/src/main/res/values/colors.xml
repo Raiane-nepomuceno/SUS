@@ -9,4 +9,12 @@
     <color name="white">#FFFFFFFF</color>
     <color name="red">#F44336</color>
     <color name="yellow">#FFC107</color>
+    <color name="violeta">#8A2BE2</color>
+    <color name="green_clean">#48D1CC</color>
+    <color name="green_clean2">#7CFC00</color>
+    <color name="orange">#D2691E</color>
+    <color name="gray">#808080</color>
+
+
+
 </resources>
